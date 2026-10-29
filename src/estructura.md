@@ -8,8 +8,8 @@ mexico-prima-coca-cola/
 ├── data/metadata/    parametros.json, manifiesto_insumos.json
 ├── outputs/charts/   gráficas PNG (la principal también en SVG)
 ├── outputs/social/   versiones de 1280×720 y 1080×1350
-├── docs/             index.html (reporte interactivo, GitHub Pages) y EVIDENCIA_DESARROLLO.md
-├── linkedin/         infografía, animación, texto de la publicación y su guía editorial (scripts incluidos)
+├── docs/index.html   reporte interactivo autocontenido (GitHub Pages)
+├── publicacion/      infografía, animación y texto de la publicación (scripts incluidos)
 ├── tests/            validar_publicacion.py: cifras, enlaces, archivos y datos sensibles
 ├── build_notebooks.py
 └── verify_project.py
@@ -30,4 +30,4 @@ python tests/validar_publicacion.py
 coinciden con este README. `tests/validar_publicacion.py` revisa que el HTML, la infografía y el texto de la publicación
 usen esas mismas cifras.
 
-Materiales de `linkedin/` (opcionales, requieren Kaleido): `python linkedin/generar_infografia.py` y `python linkedin/generar_gif.py` (la animación tarda unos 10 minutos).
+Materiales de `publicacion/` (opcionales, requieren Kaleido): `python publicacion/generar_infografia.py` y `python publicacion/generar_gif.py` (la animación tarda unos 10 minutos).

@@ -6,5 +6,5 @@ __pycache__/
 # Archivo original de PROFECO (207 MB): no se publica; el análisis usa data/processed/profeco_extracto.parquet
 08-2026_Q2.csv
 data/raw/
-# Imágenes de revisión que genera linkedin/generar_gif.py
-linkedin/escena_*.png
+# Imágenes de revisión que genera publicacion/generar_gif.py
+publicacion/escena_*.png

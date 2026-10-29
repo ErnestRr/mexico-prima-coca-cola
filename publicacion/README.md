@@ -4,8 +4,7 @@
 |---|---|
 | `infografia_coca_cola_pepsi.png` | Infografía de 1080 × 1350 px con tres gráficas del análisis |
 | `generar_infografia.py` | Genera la infografía con Plotly y Kaleido, a partir de `data/processed/` |
-| `post_linkedin.txt` | Texto de la publicación |
-| `PROMPT_LINKEDIN.md` | Guía editorial reutilizable para futuras publicaciones |
+| `texto_publicacion.txt` | Texto de la publicación |
 | `coca_cola_pepsi_plotly.gif` | Animación de 15 s (1080 × 1080) con las cuatro gráficas del análisis |
 | `coca_cola_pepsi_plotly.mp4` | La misma animación en video |
 | `generar_gif.py` | Genera la animación y el video |
@@ -14,8 +13,8 @@
 
 ```powershell
 python -m pip install plotly kaleido pillow imageio imageio-ffmpeg
-python linkedin/generar_infografia.py    # unos segundos
-python linkedin/generar_gif.py           # unos 10 minutos: cada cuadro se exporta desde Plotly
+python publicacion/generar_infografia.py    # unos segundos
+python publicacion/generar_gif.py           # unos 10 minutos: cada cuadro se exporta desde Plotly
 ```
 
 Las cifras salen de `data/processed/` (`resultados.json`, `pares_lata.csv`, `pares_familiar.csv`, `prima_desglose.csv`,

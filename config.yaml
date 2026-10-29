@@ -29,7 +29,7 @@ readme:
     precio y de portafolio importa saber dónde se sostiene y dónde se diluye.
   enlace_reporte: >-
     **[Ver el análisis interactivo](https://ernestrr.github.io/mexico-prima-coca-cola/)** ·
-    [Infografía](linkedin/infografia_coca_cola_pepsi.png) · [Evidencia de desarrollo](docs/EVIDENCIA_DESARROLLO.md)
+    [Infografía](publicacion/infografia_coca_cola_pepsi.png)
   autor: true
   secciones_extra:
     - titulo: "Datos y cobertura"

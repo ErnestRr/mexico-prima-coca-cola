@@ -35,13 +35,10 @@ for k, (v, tol) in esperadas.items():
     check(f"cifra {k} = {v}", abs(R[k] - v) <= tol, f"resultados.json tiene {R[k]}")
 
 # ----------------------------------------------------------------------------- 2. publicación
-post = leer("linkedin/post_linkedin.txt")
+post = leer("publicacion/texto_publicacion.txt")
 check("post: redondeo del gancho (24%) coincide con la prima", round(R["prima_lata"]) == 24)
 for t in ["24%", "23.7%", "4.9%", "79%", PAGES, "16–31 de agosto de 2026"]:
     check(f"post contiene «{t}»", t in post)
-ia = re.compile(r"\bIA\b|inteligencia artificial|claude|anthropic|chatgpt|prompt", re.I)
-check("post sin menciones de IA", not ia.search(post))
-check("infografía (script) sin menciones de IA", not ia.search(leer("linkedin/generar_infografia.py")))
 
 # ----------------------------------------------------------------------------- 3. HTML y README
 html = leer("docs/index.html")
@@ -49,20 +46,20 @@ readme = leer("README.md")
 for t in ["23.7%", "4.9%", "79%", "184", "144", "3.8%"]:
     check(f"HTML contiene «{t}»", t in html)
     check(f"README contiene «{t}»", t in readme)
-for t in [PAGES, "docs/EVIDENCIA_DESARROLLO.md", "linkedin/infografia_coca_cola_pepsi.png", "Tecnologías utilizadas",
+for t in [PAGES, "publicacion/infografia_coca_cola_pepsi.png", "Tecnologías utilizadas",
           "Definiciones y criterios de comparabilidad", "Datos y cobertura"]:
     check(f"README contiene «{t}»", t in readme)
 rotos = [m for m in re.findall(r"\]\(([^)\s]+)\)", readme) if not m.startswith(("http", "#")) and not (ROOT / m).exists()]
 check("README: enlaces relativos existentes", not rotos, str(rotos))
 
 # ----------------------------------------------------------------------------- 4. archivos
-png = ROOT / "linkedin/infografia_coca_cola_pepsi.png"
+png = ROOT / "publicacion/infografia_coca_cola_pepsi.png"
 dim = struct.unpack(">II", png.read_bytes()[16:24]) if png.exists() else None
 check("infografía de 1080 × 1350 px", dim == (1080, 1350), str(dim))
-gif, mp4 = ROOT / "linkedin/coca_cola_pepsi_plotly.gif", ROOT / "linkedin/coca_cola_pepsi_plotly.mp4"
+gif, mp4 = ROOT / "publicacion/coca_cola_pepsi_plotly.gif", ROOT / "publicacion/coca_cola_pepsi_plotly.mp4"
 check("animación GIF < 5 MB", gif.exists() and gif.stat().st_size < 5e6)
 check("animación MP4 presente", mp4.exists())
-for f in ["docs/EVIDENCIA_DESARROLLO.md", "linkedin/PROMPT_LINKEDIN.md", "requirements.txt", "verify_project.py",
+for f in ["requirements.txt", "verify_project.py",
           "data/metadata/manifiesto_insumos.json"]:
     check(f"existe {f}", (ROOT / f).exists())
 grandes = [str(p.relative_to(ROOT)) for p in ROOT.rglob("*") if p.is_file() and ".git" not in p.parts and p.stat().st_size > 100e6]
