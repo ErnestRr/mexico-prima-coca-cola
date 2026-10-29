@@ -2,8 +2,8 @@
 
 | Archivo | Contenido |
 |---|---|
-| `infografia_coca_cola_pepsi.png` | Infografía de 1080 × 1350 px con tres gráficas del análisis |
-| `generar_infografia.py` | Genera la infografía con Plotly y Kaleido, a partir de `data/processed/` |
+| `infografia_coca_cola_pepsi.png` | Infografía de 1080 × 1350 px: tres indicadores, comparación por cadena comercial y conclusión |
+| `generar_infografia.py` | Genera la infografía con Plotly y Kaleido, a partir de `data/processed/` (`resultados.json` y `prima_desglose.csv`) |
 | `texto_publicacion.txt` | Texto de la publicación |
 | `coca_cola_pepsi_plotly.gif` | Animación de 15 s (1080 × 1080) con las cuatro gráficas del análisis |
 | `coca_cola_pepsi_plotly.mp4` | La misma animación en video |
