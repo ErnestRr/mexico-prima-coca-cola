@@ -1,0 +1,479 @@
+{
+  "cob_lata": {
+    "cifra": 184.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "cob_lata_mun": {
+    "cifra": 56.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "cob_familiar": {
+    "cifra": 144.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "cob_familiar_mun": {
+    "cifra": 40.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "cob_light": {
+    "cifra": 36.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "cob_light_mun": {
+    "cifra": 18.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "tiendas_coca600": {
+    "cifra": 280.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "tiendas_coca_lata": {
+    "cifra": 255.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "tiendas_pepsi_lata": {
+    "cifra": 201.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "00_datos_y_cobertura",
+    "nota": ""
+  },
+  "prima_lata": {
+    "cifra": 23.684210526315795,
+    "intervalo": [
+      21.448427405702052,
+      24.675324675324674
+    ],
+    "n": 184,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "pesos_lata": {
+    "cifra": 4.5,
+    "intervalo": null,
+    "n": 184,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "inv_lata": {
+    "cifra": 0.5434782608695652,
+    "intervalo": null,
+    "n": 184,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "pares_lata": {
+    "cifra": 184.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "mun_lata": {
+    "cifra": 56.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "prima_familiar": {
+    "cifra": 4.895104895104918,
+    "intervalo": [
+      4.895104895104918,
+      4.895104895104918
+    ],
+    "n": 144,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "pesos_familiar": {
+    "cifra": -2.0,
+    "intervalo": null,
+    "n": 144,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "inv_familiar": {
+    "cifra": 20.833333333333336,
+    "intervalo": null,
+    "n": 144,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "pares_familiar": {
+    "cifra": 144.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "mun_familiar": {
+    "cifra": 40.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "prima_light": {
+    "cifra": 33.20610734648268,
+    "intervalo": [
+      32.530120481927696,
+      37.04819277108433
+    ],
+    "n": 36,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "pesos_light": {
+    "cifra": 2.7250000000000014,
+    "intervalo": null,
+    "n": 36,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "inv_light": {
+    "cifra": 0.0,
+    "intervalo": null,
+    "n": 36,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "pares_light": {
+    "cifra": 36.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "mun_light": {
+    "cifra": 18.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "lata_coca": {
+    "cifra": 24.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "lata_pepsi": {
+    "cifra": 19.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "lata_p10": {
+    "cifra": 15.81395348837209,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "lata_p90": {
+    "cifra": 26.315789473684205,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "fam_coca": {
+    "cifra": 46.9,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "fam_pepsi": {
+    "cifra": 51.95,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "fam_empaque": {
+    "cifra": -3.8461538461538436,
+    "intervalo": [
+      -3.8461538461538436,
+      -3.8461538461538436
+    ],
+    "n": 144,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "fam_coca_mas_barata": {
+    "cifra": 79.16666666666666,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": "% de tiendas donde la botella de Coca-Cola 2.75 L cuesta menos que la Pepsi 3 L"
+  },
+  "sens_lata_min": {
+    "cifra": 23.684210526315795,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "sens_lata_max": {
+    "cifra": 24.58869101426149,
+    "intervalo": null,
+    "n": null,
+    "fuente": "01_prima_misma_tienda",
+    "nota": ""
+  },
+  "lata_formato_max": {
+    "cifra": 26.315789473684205,
+    "intervalo": null,
+    "n": null,
+    "fuente": "02_cadena_formato_region",
+    "nota": "Bodega Aurrerá"
+  },
+  "lata_formato_min": {
+    "cifra": 18.17794387621192,
+    "intervalo": null,
+    "n": null,
+    "fuente": "02_cadena_formato_region",
+    "nota": "Mega Soriana"
+  },
+  "lata_formatos": {
+    "cifra": 6.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "lata_formatos_solidos": {
+    "cifra": 6.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "lata_region_min": {
+    "cifra": 21.052631578947366,
+    "intervalo": null,
+    "n": null,
+    "fuente": "02_cadena_formato_region",
+    "nota": "Centro Norte"
+  },
+  "lata_region_max": {
+    "cifra": 25.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "02_cadena_formato_region",
+    "nota": "Centro"
+  },
+  "lata_walmart": {
+    "cifra": 23.684210526315795,
+    "intervalo": [
+      21.052631578947366,
+      26.315789473684205
+    ],
+    "n": 43,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "fam_walmart": {
+    "cifra": 4.895104895104918,
+    "intervalo": [
+      4.895104895104918,
+      5.944055944055959
+    ],
+    "n": 30,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "lata_bodega": {
+    "cifra": 26.315789473684205,
+    "intervalo": [
+      23.684210526315795,
+      26.315789473684205
+    ],
+    "n": 35,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "fam_bodega": {
+    "cifra": -5.594405594405593,
+    "intervalo": [
+      -5.594405594405593,
+      0.17482517482518833
+    ],
+    "n": 27,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "lata_soriana": {
+    "cifra": 19.512195121951216,
+    "intervalo": [
+      17.22488038277512,
+      19.512195121951216
+    ],
+    "n": 26,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "fam_soriana": {
+    "cifra": 4.629113218070269,
+    "intervalo": [
+      4.629113218070269,
+      5.9676519799219285
+    ],
+    "n": 17,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "lata_chedraui": {
+    "cifra": 24.326440115975956,
+    "intervalo": [
+      18.421052631578938,
+      26.315789473684205
+    ],
+    "n": 10,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "fam_chedraui": {
+    "cifra": 10.316649642492326,
+    "intervalo": [
+      7.892107892107902,
+      16.0273252758802
+    ],
+    "n": 13,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "fam_formatos_neg": {
+    "cifra": 1.0,
+    "intervalo": null,
+    "n": 6,
+    "fuente": "02_cadena_formato_region",
+    "nota": ""
+  },
+  "lata_invertida": {
+    "cifra": 0.5434782608695652,
+    "intervalo": null,
+    "n": null,
+    "fuente": "03_donde_se_reduce",
+    "nota": ""
+  },
+  "lata_reducida": {
+    "cifra": 2.717391304347826,
+    "intervalo": null,
+    "n": null,
+    "fuente": "03_donde_se_reduce",
+    "nota": ""
+  },
+  "lata_igual": {
+    "cifra": 1.0869565217391304,
+    "intervalo": null,
+    "n": null,
+    "fuente": "03_donde_se_reduce",
+    "nota": ""
+  },
+  "fam_invertida": {
+    "cifra": 20.833333333333336,
+    "intervalo": null,
+    "n": null,
+    "fuente": "03_donde_se_reduce",
+    "nota": ""
+  },
+  "fam_reducida": {
+    "cifra": 4.166666666666666,
+    "intervalo": null,
+    "n": null,
+    "fuente": "03_donde_se_reduce",
+    "nota": ""
+  },
+  "fam_inv_max": {
+    "cifra": 62.96296296296296,
+    "intervalo": null,
+    "n": null,
+    "fuente": "03_donde_se_reduce",
+    "nota": "Bodega Aurrerá"
+  },
+  "rho_lata_familiar": {
+    "cifra": -0.04097074951200584,
+    "intervalo": null,
+    "n": 104,
+    "fuente": "03_donde_se_reduce",
+    "nota": ""
+  },
+  "litro_coca_lata": {
+    "cifra": 67.60563380281691,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  },
+  "litro_coca_600": {
+    "cifra": 36.66666666666667,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  },
+  "litro_coca_275": {
+    "cifra": 17.163636363636364,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  },
+  "litro_pepsi_lata": {
+    "cifra": 53.521126760563384,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  },
+  "litro_pepsi_3": {
+    "cifra": 16.333333333333332,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  },
+  "precio_coca_600": {
+    "cifra": 22.0,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  },
+  "veces_lata_familiar": {
+    "cifra": 3.938887562664121,
+    "intervalo": null,
+    "n": null,
+    "fuente": "04_poder_de_precio",
+    "nota": ""
+  }
+}

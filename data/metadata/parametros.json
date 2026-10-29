@@ -1,0 +1,29 @@
+{
+  "semilla": 2026,
+  "bootstrap_replicas": 500,
+  "canal": "Supermercado / Tienda de Autoservicio",
+  "min_pares": 10,
+  "comparaciones": {
+    "lata": {
+      "nombre": "Lata 355 ml vs. lata 355 ml",
+      "coca": 2588,
+      "pepsi": 1149,
+      "por": "empaque",
+      "nota": "mismo tamaño: precio por empaque (igual a precio por litro)"
+    },
+    "familiar": {
+      "nombre": "Coca-Cola 2.75 L vs. Pepsi 3 L",
+      "coca": 3210,
+      "pepsi": 344,
+      "por": "unidad",
+      "nota": "tamaños distintos (razón 0.92): precio por litro; se muestra también por empaque"
+    },
+    "light": {
+      "nombre": "Coca-Cola Light 2 L vs. Pepsi Light 2.5 L",
+      "coca": 2589,
+      "pepsi": 1150,
+      "por": "unidad",
+      "nota": "sensibilidad: variantes sin azúcar, por litro"
+    }
+  }
+}

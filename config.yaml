@@ -1,0 +1,169 @@
+# Textos del análisis. Los marcadores {clave} o {clave:.0f} se llenan con data/processed/resultados.json.
+nombre: mexico-prima-coca-cola
+titulo: "¿Cuánto vale la marca Coca-Cola en pesos?"
+objetivo: "Medir con precios reales cuánto sobreprecio sostiene la marca líder frente a su competidor directo, como caso de valor de marca para directores de marketing y ventas."
+pregunta: "En la misma tienda, ¿cuánto más cuesta Coca-Cola que Pepsi en presentación equivalente?"
+preguntas_secundarias:
+  - "En la misma tienda, ¿cuánto más cuesta Coca-Cola que Pepsi en presentación equivalente?"
+  - "¿Cambia por cadena, formato o región?"
+  - "¿Dónde se reduce o se invierte?"
+  - "¿Qué dice sobre el poder de precio de una marca líder, y qué puede aprender una marca retadora?"
+audiencias: [Dirección de marketing y ventas de la marca líder, Marca retadora, Dueño de tienda o cadena, Analista comercial]
+graficas:
+  - archivo: 01_prima_lata.png
+    titulo: "Prima de la lata"
+    pie: "Distribución de la prima de Coca-Cola sobre Pepsi en la misma tienda, con la mediana y el desglose por cadena."
+  - archivo: 02_prima_por_presentacion.png
+    titulo: "Prima por presentación"
+    pie: "Lata, botella familiar por litro y por botella, y variantes light."
+  - archivo: 03_familiar_por_formato.png
+    titulo: "Botella familiar por cadena"
+    pie: "Prima por litro de Coca-Cola 2.75 L sobre Pepsi 3 L."
+  - archivo: 04_precio_por_litro.png
+    titulo: "Precio por litro"
+    pie: "Cuánto cuesta un litro en cada presentación de las dos marcas."
+readme:
+  contexto: >-
+    **El problema.** Una marca líder suele sostener un precio más alto que su competidor, pero ese sobreprecio no es una sola
+    cifra: depende de la presentación que se compara y de la unidad (por lata, por litro o por envase). Para decisiones de
+    precio y de portafolio importa saber dónde se sostiene y dónde se diluye.
+  enlace_reporte: >-
+    **[Ver el análisis interactivo](https://ernestrr.github.io/mexico-prima-coca-cola/)** ·
+    [Infografía](linkedin/infografia_coca_cola_pepsi.png) · [Evidencia de desarrollo](docs/EVIDENCIA_DESARROLLO.md)
+  autor: true
+  secciones_extra:
+    - titulo: "Datos y cobertura"
+      texto: |
+        - **Fuente oficial:** PROFECO, programa Quién es Quién en los Precios (https://qqp.profeco.gob.mx/), archivo `08-2026_Q2.csv`.
+          La huella SHA-256 del original está en `data/metadata/manifiesto_insumos.json`; el archivo no se modifica.
+        - **Periodo:** 16 al 31 de agosto de 2026 (una quincena).
+        - **Cobertura:** supermercados y tiendas de autoservicio monitoreados por PROFECO. Lata: {cob_lata:.0f} tiendas en
+          {cob_lata_mun:.0f} municipios; botella familiar: {cob_familiar:.0f} tiendas en {cob_familiar_mun:.0f} municipios;
+          variantes light: {cob_light:.0f} tiendas en {cob_light_mun:.0f} municipios.
+    - titulo: "Definiciones y criterios de comparabilidad"
+      texto: |
+        - **Misma tienda:** cada precio de Coca-Cola se compara con el de Pepsi en el mismo establecimiento, así que la cadena, la
+          ciudad y la tienda no explican la diferencia. El precio de una tienda es la mediana de sus observaciones de la quincena.
+        - **Prima de precio:** cuánto más cuesta Coca-Cola que Pepsi, en % (mediana de log(precio Coca-Cola / precio Pepsi) entre
+          tiendas) y en pesos. Positiva (▲, verde): Coca-Cola más cara; negativa (▼, rojo): más barata.
+        - **Presentaciones equivalentes:** lata de 355 ml contra lata de 355 ml (mismo tamaño). Coca-Cola 2.75 L contra Pepsi 3 L:
+          los tamaños no coinciden (razón 0.92), por eso se reporta por litro y por botella. Las variantes light (2 L contra 2.5 L)
+          son solo una sensibilidad. No hay Pepsi de 600 ml, así que esa presentación de Coca-Cola no tiene par.
+        - **Por litro y por botella** miden cosas distintas: por litro se compara el contenido; por botella, lo que se paga en la
+          caja. Ninguna de las dos implica disposición a pagar, margen ni causalidad.
+        - **Incertidumbre:** IC90 (rango probable) por bootstrap de tiendas y municipios, 500 réplicas, semilla 2026.
+    - titulo: "Tecnologías utilizadas"
+      texto: |
+        - **Análisis:** Python 3.13, pandas, NumPy, PyArrow (Parquet) y PyYAML; Jupyter (nbformat, nbclient) para los notebooks.
+        - **Gráficas:** matplotlib para las del análisis; Plotly y Kaleido para el reporte interactivo, la infografía y la animación.
+        - **Animación:** Pillow, imageio y FFmpeg.
+        - **Verificación:** `verify_project.py` y `tests/validar_publicacion.py` (solo pandas, NumPy y la biblioteca estándar).
+  hallazgo_principal: >-
+    **En la misma tienda, la lata de Coca-Cola cuesta {prima_lata:.1f}% más que la de Pepsi (IC90
+    {prima_lata_inf:.1f}–{prima_lata_sup:.1f}%): ${lata_coca:.0f} contra ${lata_pepsi:.0f}, una diferencia típica de
+    ${pesos_lata:.2f} por lata.** Coca-Cola es más barata que Pepsi en solo {inv_lata:.0f}% de los {pares_lata:.0f} supermercados
+    que tienen las dos latas, y la prima es sólida en las {lata_formatos_solidos:.0f} cadenas con datos suficientes.
+  grafica_principal: outputs/charts/01_prima_lata.png
+  alt_grafica: "Distribución de la prima de la lata de Coca-Cola sobre la de Pepsi en la misma tienda"
+  nota_principal: >-
+    Prima = cuánto más cuesta Coca-Cola que Pepsi en la misma tienda (mediana de las tiendas). IC90 = rango probable, por
+    bootstrap de tiendas y municipios. Se habla de precio relativo sostenido, no de valor contable de la marca.
+  hallazgos_apoyo:
+    - >-
+      **La prima vive en el envase individual.** En la botella familiar (Coca-Cola 2.75 L contra Pepsi 3 L) la prima baja a
+      {prima_familiar:.1f}% por litro (IC90 {prima_familiar_inf:.1f}–{prima_familiar_sup:.1f}%), y por botella la Coca-Cola cuesta
+      {fam_empaque:.1f}% frente a la Pepsi (${fam_coca:.2f} contra ${fam_pepsi:.2f}; más barata en {fam_coca_mas_barata:.0f}% de las tiendas):
+      un envase un poco más chico que llega a un precio menor. Un litro de Coca-Cola en lata cuesta ${litro_coca_lata:.2f},
+      {veces_lata_familiar:.1f} veces lo que en la botella de 2.75 L (${litro_coca_275:.2f}).
+    - >-
+      **Todas las cadenas sostienen la prima de la lata, pero no la misma.** Va de {lata_formato_min:.1f}% en Mega Soriana y
+      {lata_soriana:.1f}% en Hipermercado Soriana (IC90 {lata_soriana_inf:.1f}–{lata_soriana_sup:.1f}) a {lata_formato_max:.1f}% en
+      Bodega Aurrerá (IC90 {lata_bodega_inf:.1f}–{lata_bodega_sup:.1f}) y Walmart Express. Por región, de {lata_region_min:.1f}% en
+      el Centro Norte a {lata_region_max:.1f}% en el Centro.
+    - >-
+      **La prima se reduce o se invierte en la botella, no en la lata.** La lata de Coca-Cola queda a menos de la mitad de la prima
+      típica en {lata_reducida:.0f}% de las tiendas y es más barata en {lata_invertida:.0f}%. En la botella familiar, Coca-Cola sale
+      más barata por litro en {fam_invertida:.0f}% de las tiendas. Que una tienda tenga prima baja en una presentación no dice nada
+      de la otra (correlación de rangos {rho_lata_familiar:.2f}): cada envase tiene su propia política.
+  no_solido: >-
+    En Bodega Aurrerá la botella de Coca-Cola sale más barata por litro que la de Pepsi en {fam_inv_max:.0f}% de las tiendas
+    (prima típica {fam_bodega:.1f}%), pero el rango probable va de {fam_bodega_inf:.1f}% a {fam_bodega_sup:.1f}% y cruza 0: no se
+    puede afirmar que Bodega invierta la prima. Las variantes light muestran una prima mayor ({prima_light:.1f}% por litro), pero
+    solo hay {pares_light:.0f} tiendas con las dos. Y no hay Pepsi de 600 ml en el archivo: la presentación más vendida de
+    Coca-Cola (${precio_coca_600:.0f}, en {tiendas_coca600:.0f} supermercados) no tiene par.
+  alcance: "Aplica a los supermercados que monitorea PROFECO, no a todo el mercado. Solo precio al consumidor: no hay ventas, volumen ni margen, así que no se mide cuánto vende cada marca con esa prima."
+  acciones:
+    "Dirección de marketing y ventas de la marca líder":
+      - "**La prima se sostiene donde el cliente compra por impulso.** En la lata, {prima_lata:.0f}% arriba de Pepsi y casi sin excepciones ({inv_lata:.0f}% de tiendas invertidas): ese es el activo de marca que hay que cuidar."
+      - "**En el envase familiar la marca compite por precio de empaque.** La botella de 2.75 L cuesta menos que la Pepsi de 3 L en {fam_coca_mas_barata:.0f}% de las tiendas. Si el objetivo es margen por litro, ahí está el espacio; si es volumen, la estrategia ya funciona."
+      - "**Revise las cadenas con prima más baja en lata.** En Soriana la prima es {lata_soriana:.0f}% contra {lata_formato_max:.0f}% en Bodega Aurrerá: la diferencia de anaquel la decide la cadena."
+    "Marca retadora":
+      - "**No pelee la lata solo con precio.** Pepsi ya está ${pesos_lata:.2f} abajo en casi todas las tiendas y la líder sostiene su prima; la palanca está en visibilidad, frío y punto de venta."
+      - "**Compita en el formato familiar con precio por litro visible.** Ahí la diferencia por litro es de {prima_familiar:.0f}% y el cliente compara empaques de tamaños distintos: hacer visible el precio por litro favorece a la botella de 3 L."
+      - "**Busque presentaciones donde la líder no tiene par.** Coca-Cola de 600 ml no tiene competidor directo de Pepsi en el archivo."
+    "Dueño de tienda o cadena":
+      - "**Use la lata para margen y la botella para tráfico.** El cliente acepta una prima de {prima_lata:.0f}% en la lata de la líder; en el envase familiar compara precio por empaque."
+      - "**Muestre el precio por litro.** Con envases de 2.75 L y 3 L, el precio por botella engaña; la etiqueta por litro ayuda al cliente y reduce reclamos."
+    "Analista comercial":
+      - "**Compare en la misma tienda y en presentación equivalente.** El promedio nacional de cada marca mezcla tiendas, ciudades y tamaños."
+      - "**Con tamaños distintos, reporte por litro y por empaque.** Por litro Coca-Cola sale {prima_familiar:.1f}% más cara; por botella, {fam_empaque:.1f}%: las dos lecturas son ciertas y dicen cosas distintas."
+  como_se_hizo:
+    - "Precios de tienda (mediana de la quincena) de supermercados monitoreados por PROFECO del 16 al 31 de agosto de 2026."
+    - "Pares Coca-Cola–Pepsi en la misma tienda (motor `pares.marcas`): lata 355 ml contra lata 355 ml ({pares_lata:.0f} tiendas, {mun_lata:.0f} municipios); Coca-Cola 2.75 L contra Pepsi 3 L por litro y por botella ({pares_familiar:.0f} tiendas); Light 2 L contra Light 2.5 L por litro ({pares_light:.0f} tiendas)."
+    - "Prima = mediana de log(precio Coca-Cola / precio Pepsi) en %, y mediana de la diferencia en pesos; IC90 por bootstrap de tiendas y municipios (500 réplicas, semilla 2026)."
+    - "Desglose por cadena, formato, grupo y región con 10 tiendas o más."
+  limitaciones:
+    - "**Universo:** solo tiendas monitoreadas por PROFECO; no es una muestra representativa de todos los establecimientos."
+    - "**Periodo:** una quincena (16–31 ago 2026); las promociones de un día quedan atenuadas por la mediana de la quincena."
+    - "**Presentaciones:** no hay Pepsi de 600 ml; la botella familiar compara tamaños distintos (2.75 L y 3 L)."
+    - "**Precios discretos:** muchas tiendas cobran exactamente lo mismo ($24 y $19 en la lata); por eso algunos rangos probables tocan la estimación en un extremo."
+    - "**Causalidad:** la prima describe precios relativos; no dice cuánto vende cada marca ni por qué la cadena fija esos precios."
+  metodo: |-
+    **00 · Datos y equivalencias.** Tabla común `precio_tienda_sku` unida a `tiendas` y `sku_catalogo`. Pepsi regular solo viene en
+    lata de 355 ml y botellas de 2.5 y 3 L; no hay Pepsi de 600 ml. Empresa propietaria verificada en `sku_catalogo` (Form 10-K de
+    cada empresa). Posibles errores, extremos y precios que cambian en la quincena se marcan.
+
+    **01 · Prima en la misma tienda.** `pares.marcas` con a = Pepsi y b = Coca-Cola; `pares.resumir` para la prima en % y en pesos,
+    % invertidos e IC90 de dos vías. Sensibilidad de la lata:
+
+    | Variante | Prima |
+    |---|---|
+    | Principal (supermercados) | {prima_lata:.1f}% |
+    | Sin extremos, sin precios que cambian en la quincena y todos los giros | entre {sens_lata_min:.1f}% y {sens_lata_max:.1f}% |
+
+    **02 · Cadena, formato y región.** Misma prima por grupo con 10 tiendas o más.
+
+    **03 · Dónde se reduce.** Invertida = Coca-Cola más barata en la tienda; reducida = prima menor a la mitad de la mediana.
+    Correlación de rangos (Spearman) entre la prima de la lata y la de la botella en las mismas tiendas.
+
+    **04 · Poder de precio.** Precio por litro de cada presentación regular (mediana de los supermercados que la venden, 30 tiendas o
+    más).
+
+    **05 · Visualizaciones.** Gráficas, versiones para publicar y reporte interactivo.
+  fuentes:
+    - "**The Coca-Cola Company**, Form 10-K 2025 (propiedad de la marca Coca-Cola): https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm"
+    - "**PepsiCo, Inc.**, Form 10-K 2025 (propiedad de la marca Pepsi): https://www.sec.gov/Archives/edgar/data/77476/000007747626000007/pep-20251227.htm"
+reporte:
+  descripcion: "Cuánto más cuesta Coca-Cola que Pepsi en la misma tienda, por presentación y cadena. PROFECO, agosto de 2026."
+  h1: "En la misma tienda, la lata de Coca-Cola cuesta <span class='pos'>▲ {prima_lata:.1f}%</span> más que la de Pepsi"
+  intro: >-
+    {pares_lata:.0f} supermercados de {mun_lata:.0f} municipios con las dos latas de 355 ml, y {pares_familiar:.0f} con las botellas
+    familiares, monitoreados por PROFECO del 16 al 31 de agosto de 2026.
+  stats:
+    - valor: "▲ {prima_lata:.1f}%"
+      clase: pos
+      texto: "prima de la lata de Coca-Cola en la misma tienda (IC90 {prima_lata_inf:.1f}–{prima_lata_sup:.1f}%)"
+    - valor: "+${pesos_lata:.2f}"
+      clase: pos
+      texto: "diferencia típica por lata: ${lata_coca:.0f} contra ${lata_pepsi:.0f}"
+    - valor: "▲ {prima_familiar:.1f}%"
+      clase: pos
+      texto: "prima por litro en la botella familiar (2.75 L contra 3 L)"
+    - valor: "{fam_coca_mas_barata:.0f}%"
+      clase: ""
+      texto: "de las tiendas donde la botella de Coca-Cola cuesta menos que la de Pepsi"
+  metodo:
+    - "Misma tienda (motor de pares); precio de tienda = mediana de la quincena."
+    - "Lata 355 ml contra lata 355 ml; Coca-Cola 2.75 L contra Pepsi 3 L por litro y por botella; Light como sensibilidad. No hay Pepsi de 600 ml."
+    - "Prima = mediana de log(Coca-Cola / Pepsi); IC90 por bootstrap de tiendas y municipios (500 réplicas, semilla 2026)."
+    - "Solo precio al consumidor en tiendas monitoreadas por PROFECO; ningún resultado implica causalidad."

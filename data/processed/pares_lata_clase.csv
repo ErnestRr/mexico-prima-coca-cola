@@ -1,0 +1,185 @@
+﻿establecimiento_id,cadena_comercial,formato,grupo,municipio_id,region,producto,clave,precio_a,precio_b,pesos_a,pesos_b,a,b,prima_pct,prima_pesos,clase
+49,Ley,Ley,Ley,Baja California | Tijuana,Norte,Refresco,Refresco,17.95,20.0,17.95,20.0,Pepsi,Coca Cola,11.42061281337048,2.0500000000000007,normal
+54,Aprecio,Aprecio,Aprecio,Baja California | Tijuana,Norte,Refresco,Refresco,18.9,20.5,18.9,20.5,Pepsi,Coca Cola,8.465608465608465,1.6000000000000014,reducida
+91,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Baja California Sur | La Paz,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+122,Wal-mart,Walmart,Walmart de México,Baja California Sur | La Paz,Centro Norte,Refresco,Refresco,18.5,23.0,18.5,23.0,Pepsi,Coca Cola,24.32432432432432,4.5,normal
+125,Ley,Ley,Ley,Baja California Sur | La Paz,Centro Norte,Refresco,Refresco,18.9,23.0,18.9,23.0,Pepsi,Coca Cola,21.693121693121697,4.100000000000001,normal
+143,Chedraui,Chedraui,Chedraui,Campeche | Campeche,Sur,Refresco,Refresco,19.0,20.0,19.0,20.0,Pepsi,Coca Cola,5.263157894736836,1.0,reducida
+152,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Campeche | Campeche,Sur,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+170,Wal-mart,Walmart,Walmart de México,Campeche | Campeche,Sur,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+178,Hipermercado Soriana,Hipermercado Soriana,Soriana,Campeche | Campeche,Sur,Refresco,Refresco,19.6,24.9,19.6,24.9,Pepsi,Coca Cola,27.040816326530592,5.299999999999997,normal
+198,Hipermercado Soriana,Hipermercado Soriana,Soriana,Chiapas | Tuxtla Gutiérrez,Sur,Refresco,Refresco,19.6,24.0,19.6,24.0,Pepsi,Coca Cola,22.448979591836714,4.399999999999999,normal
+206,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Chiapas | Tuxtla Gutiérrez,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+222,Wal-mart,Walmart,Walmart de México,Chiapas | Tuxtla Gutiérrez,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+223,Chedraui,Chedraui,Chedraui,Chiapas | Tuxtla Gutiérrez,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+236,Hipermercado Soriana,Hipermercado Soriana,Soriana,Chiapas | Tuxtla Gutiérrez,Sur,Refresco,Refresco,19.6,24.0,19.6,24.0,Pepsi,Coca Cola,22.448979591836714,4.399999999999999,normal
+267,Supermercado Gonzalez,Supermercado Gonzalez,Supermercado Gonzalez,Chihuahua | Juárez,Norte,Refresco,Refresco,19.0,25.5,19.0,25.5,Pepsi,Coca Cola,34.210526315789465,6.5,normal
+270,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Chihuahua | Juárez,Norte,Refresco,Refresco,17.5,23.0,17.5,23.0,Pepsi,Coca Cola,31.428571428571427,5.5,normal
+291,Wal-mart,Walmart,Walmart de México,Chihuahua | Juárez,Norte,Refresco,Refresco,17.5,23.0,17.5,23.0,Pepsi,Coca Cola,31.428571428571427,5.5,normal
+297,S Mart,S Mart,S Mart,Chihuahua | Juárez,Norte,Refresco,Refresco,17.49,23.99,17.49,23.99,Pepsi,Coca Cola,37.16409376786736,6.5,normal
+305,Hipermercado Soriana,Hipermercado Soriana,Soriana,Chihuahua | Juárez,Norte,Refresco,Refresco,19.6,20.75,19.6,20.75,Pepsi,Coca Cola,5.867346938775508,1.1499999999999986,reducida
+314,La Comer,La Comer,La Comer,Ciudad de México | Álvaro Obregón,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+322,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Álvaro Obregón,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+323,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Álvaro Obregón,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+334,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Azcapotzalco,Centro,Refresco,Refresco,20.9,23.5,20.9,23.5,Pepsi,Coca Cola,12.440191387559809,2.6000000000000014,normal
+341,Wal-mart,Walmart,Walmart de México,Ciudad de México | Azcapotzalco,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+342,Wal-mart,Walmart,Walmart de México,Ciudad de México | Azcapotzalco,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+345,La Comer,La Comer,La Comer,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+348,Soriana Super,Soriana Super,Soriana,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+355,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+356,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+357,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+358,Wal-mart,Walmart,Walmart de México,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+359,Wal-mart,Walmart,Walmart de México,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+360,Chedraui Selecto,Chedraui Selecto,Chedraui,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,17.5,24.0,17.5,24.0,Pepsi,Coca Cola,37.142857142857146,6.5,normal
+361,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+362,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+366,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Benito Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+371,Chedraui,Chedraui,Chedraui,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+375,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+379,La Comer,La Comer,La Comer,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+382,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,21.5,24.9,21.5,24.9,Pepsi,Coca Cola,15.81395348837209,3.3999999999999986,normal
+392,Wal-mart,Walmart,Walmart de México,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+393,U.n.a.m.,U.n.a.m.,U.n.a.m.,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,17.88,22.25,17.88,22.25,Pepsi,Coca Cola,24.44071588366892,4.370000000000001,normal
+394,Wal-mart,Walmart,Walmart de México,Ciudad de México | Coyoacán,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+398,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Cuauhtémoc,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+401,La Comer,La Comer,La Comer,Ciudad de México | Cuauhtémoc,Centro,Refresco,Refresco,19.0,23.95,19.0,23.95,Pepsi,Coca Cola,26.05263157894737,4.949999999999999,normal
+409,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Cuauhtémoc,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+411,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Cuauhtémoc,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+417,Sumesa,Sumesa,La Comer,Ciudad de México | Cuauhtémoc,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+430,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Gustavo a. Madero,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+431,Mega Soriana,Mega Soriana,Soriana,Ciudad de México | Gustavo a. Madero,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+436,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Gustavo a. Madero,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+447,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Gustavo a. Madero,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+448,Wal-mart,Walmart,Walmart de México,Ciudad de México | Gustavo a. Madero,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+457,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Iztapalapa,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+462,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Iztapalapa,Centro,Refresco,Refresco,21.5,24.9,21.5,24.9,Pepsi,Coca Cola,15.81395348837209,3.3999999999999986,normal
+493,Wal-mart,Walmart,Walmart de México,Ciudad de México | Iztapalapa,Centro,Refresco,Refresco,18.25,23.5,18.25,23.5,Pepsi,Coca Cola,28.76712328767124,5.25,normal
+507,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Iztapalapa,Centro,Refresco,Refresco,21.5,24.9,21.5,24.9,Pepsi,Coca Cola,15.81395348837209,3.3999999999999986,normal
+510,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Iztapalapa,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+515,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Magdalena Contreras,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+518,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Miguel Hidalgo,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+519,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Miguel Hidalgo,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+524,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Miguel Hidalgo,Centro,Refresco,Refresco,20.45,24.45,20.45,24.45,Pepsi,Coca Cola,19.559902200489,4.0,normal
+534,Wal-mart,Walmart,Walmart de México,Ciudad de México | Miguel Hidalgo,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+537,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Miguel Hidalgo,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+539,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Tlalpan,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+543,Wal-mart Express,Walmart Express,Walmart de México,Ciudad de México | Tlalpan,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+544,Mega Soriana,Mega Soriana,Soriana,Ciudad de México | Tlalpan,Centro,Refresco,Refresco,21.5,24.9,21.5,24.9,Pepsi,Coca Cola,15.81395348837209,3.3999999999999986,normal
+550,Hipermercado Soriana,Hipermercado Soriana,Soriana,Ciudad de México | Tlalpan,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+552,Wal-mart,Walmart,Walmart de México,Ciudad de México | Tlalpan,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+553,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Venustiano Carranza,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+562,Wal-mart,Walmart,Walmart de México,Ciudad de México | Venustiano Carranza,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+566,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Ciudad de México | Xochimilco,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+576,H.e.b.,HEB,HEB,Coahuila | Saltillo,Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+585,Hipermercado Soriana,Hipermercado Soriana,Soriana,Coahuila | Saltillo,Norte,Refresco,Refresco,20.5,26.9,20.5,26.9,Pepsi,Coca Cola,31.219512195121936,6.399999999999999,normal
+596,Wal-mart,Walmart,Walmart de México,Coahuila | Saltillo,Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+597,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Coahuila | Saltillo,Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+619,Wal-mart,Walmart,Walmart de México,Durango | Durango,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+620,Chedraui,Chedraui,Chedraui,Durango | Durango,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+671,Mega Soriana,Mega Soriana,Soriana,Estado de México | Atizapán de Zaragoza,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+674,Sumesa,Sumesa,La Comer,Estado de México | Atizapán de Zaragoza,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+682,Chedraui,Chedraui,Chedraui,Estado de México | Coacalco,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+683,Wal-mart,Walmart,Walmart de México,Estado de México | Coacalco,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+684,Mega Soriana,Mega Soriana,Soriana,Estado de México | Coacalco,Centro,Refresco,Refresco,20.9,24.9,20.9,24.9,Pepsi,Coca Cola,19.13875598086125,4.0,normal
+685,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Cuautitlán,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+692,Hipermercado Soriana,Hipermercado Soriana,Soriana,Estado de México | Cuautitlán Izcalli,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+701,Wal-mart,Walmart,Walmart de México,Estado de México | Cuautitlán Izcalli,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+704,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Ecatepec de Morelos,Centro,Refresco,Refresco,19.0,20.0,19.0,20.0,Pepsi,Coca Cola,5.263157894736836,1.0,reducida
+705,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Ecatepec de Morelos,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+719,Wal-mart,Walmart,Walmart de México,Estado de México | Ecatepec de Morelos,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+720,Wal-mart,Walmart,Walmart de México,Estado de México | Ecatepec de Morelos,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+724,Hipermercado Soriana,Hipermercado Soriana,Soriana,Estado de México | Ecatepec de Morelos,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+739,City Market,City Market,La Comer,Estado de México | Huixquilucan,Centro,Refresco,Refresco,19.0,23.75,19.0,23.75,Pepsi,Coca Cola,25.0,4.75,normal
+740,Fresko la Comer,Fresko,La Comer,Estado de México | Huixquilucan,Centro,Refresco,Refresco,19.0,23.7,19.0,23.7,Pepsi,Coca Cola,24.736842105263147,4.699999999999999,normal
+741,Wal-mart,Walmart,Walmart de México,Estado de México | Huixquilucan,Centro,Refresco,Refresco,19.0,22.75,19.0,22.75,Pepsi,Coca Cola,19.736842105263165,3.75,normal
+742,Wal-mart Express,Walmart Express,Walmart de México,Estado de México | Huixquilucan,Centro,Refresco,Refresco,19.0,23.25,19.0,23.25,Pepsi,Coca Cola,22.36842105263157,4.25,normal
+743,Hipermercado Soriana,Hipermercado Soriana,Soriana,Estado de México | Lerma,Centro,Refresco,Refresco,20.9,24.5,20.9,24.5,Pepsi,Coca Cola,17.22488038277512,3.6000000000000014,normal
+746,Wal-mart,Walmart,Walmart de México,Estado de México | Metepec,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+750,La Comer,La Comer,La Comer,Estado de México | Naucalpan de Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+756,Wal-mart Express,Walmart Express,Walmart de México,Estado de México | Naucalpan de Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+758,Mega Soriana,Mega Soriana,Soriana,Estado de México | Naucalpan de Juárez,Centro,Refresco,Refresco,19.0,22.9,19.0,22.9,Pepsi,Coca Cola,20.52631578947368,3.899999999999999,normal
+761,Super Chedraui,Super Chedraui,Chedraui,Estado de México | Naucalpan de Juárez,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+770,Wal-mart Express,Walmart Express,Walmart de México,Estado de México | Naucalpan de Juárez,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+773,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Nezahualcóyotl,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+774,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Nezahualcóyotl,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+777,Mega Soriana,Mega Soriana,Soriana,Estado de México | Nezahualcóyotl,Centro,Refresco,Refresco,19.95,23.0,19.95,23.0,Pepsi,Coca Cola,15.28822055137844,3.0500000000000007,normal
+797,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Tlalnepantla,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+801,Mega Soriana,Mega Soriana,Soriana,Estado de México | Tlalnepantla,Centro,Refresco,Refresco,20.5,24.5,20.5,24.5,Pepsi,Coca Cola,19.512195121951216,4.0,normal
+807,La Comer,La Comer,La Comer,Estado de México | Tlalnepantla,Centro,Refresco,Refresco,19.4,23.0,19.4,23.0,Pepsi,Coca Cola,18.55670103092784,3.6000000000000014,normal
+808,Chedraui Selecto,Chedraui Selecto,Chedraui,Estado de México | Tlalnepantla,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+812,Wal-mart Express,Walmart Express,Walmart de México,Estado de México | Tlalnepantla,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+813,Wal-mart,Walmart,Walmart de México,Estado de México | Tlalnepantla,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+854,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Estado de México | Tultitlán,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+874,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Guanajuato | León,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+875,Mega Soriana,Mega Soriana,Soriana,Guanajuato | León,Centro,Refresco,Refresco,20.5,25.9,20.5,25.9,Pepsi,Coca Cola,26.34146341463415,5.399999999999999,normal
+890,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Guanajuato | León,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+902,Hipermercado Soriana,Hipermercado Soriana,Soriana,Guanajuato | León,Centro,Refresco,Refresco,20.9,23.5,20.9,23.5,Pepsi,Coca Cola,12.440191387559809,2.6000000000000014,normal
+924,Mega Soriana,Mega Soriana,Soriana,Guanajuato | León,Centro,Refresco,Refresco,21.9,25.5,21.9,25.5,Pepsi,Coca Cola,16.43835616438356,3.6000000000000014,normal
+927,Wal-mart,Walmart,Walmart de México,Guanajuato | León,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+934,Wal-mart,Walmart,Walmart de México,Guanajuato | León,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+945,H.e.b.,HEB,HEB,Guanajuato | León,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+956,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Guerrero | Acapulco de Juárez,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+970,Hipermercado Soriana,Hipermercado Soriana,Soriana,Guerrero | Acapulco de Juárez,Sur,Refresco,Refresco,21.5,21.5,21.5,21.5,Pepsi,Coca Cola,0.0,0.0,igual
+977,Mega Soriana,Mega Soriana,Soriana,Guerrero | Acapulco de Juárez,Sur,Refresco,Refresco,21.5,21.5,21.5,21.5,Pepsi,Coca Cola,0.0,0.0,igual
+988,Wal-mart,Walmart,Walmart de México,Guerrero | Acapulco de Juárez,Sur,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1007,Wal-mart,Walmart,Walmart de México,Jalisco | Guadalajara,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1010,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Jalisco | Guadalajara,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1045,Wal-mart Express,Walmart Express,Walmart de México,Jalisco | Guadalajara,Centro Norte,Refresco,Refresco,19.0,18.0,19.0,18.0,Pepsi,Coca Cola,-5.263157894736848,-1.0,invertida
+1069,Hipermercado Soriana,Hipermercado Soriana,Soriana,Jalisco | Tonalá,Centro Norte,Refresco,Refresco,20.5,24.9,20.5,24.9,Pepsi,Coca Cola,21.46341463414634,4.399999999999999,normal
+1078,Wal-mart,Walmart,Walmart de México,Jalisco | Zapopan,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1101,Wal-mart,Walmart,Walmart de México,Michoacán | Morelia,Centro Norte,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1111,La Comer,La Comer,La Comer,Michoacán | Morelia,Centro Norte,Refresco,Refresco,17.5,23.9,17.5,23.9,Pepsi,Coca Cola,36.57142857142857,6.399999999999999,normal
+1129,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Morelos | Cuernavaca,Centro,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1136,Chedraui,Chedraui,Chedraui,Morelos | Cuernavaca,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1138,Mega Soriana,Mega Soriana,Soriana,Morelos | Cuernavaca,Centro,Refresco,Refresco,20.5,23.9,20.5,23.9,Pepsi,Coca Cola,16.58536585365853,3.3999999999999986,normal
+1153,Fresko la Comer,Fresko,La Comer,Morelos | Cuernavaca,Centro,Refresco,Refresco,19.0,22.5,19.0,22.5,Pepsi,Coca Cola,18.421052631578934,3.5,normal
+1168,Wal-mart,Walmart,Walmart de México,Morelos | Cuernavaca,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1222,Mi Tienda del Ahorro,Mi Tienda del Ahorro,Mi Tienda del Ahorro,Nuevo León | Monterrey,Norte,Refresco,Refresco,18.9,23.0,18.9,23.0,Pepsi,Coca Cola,21.693121693121697,4.100000000000001,normal
+1233,Wal-mart,Walmart,Walmart de México,Nuevo León | Monterrey,Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1238,H.e.b.,HEB,HEB,Nuevo León | San Nicolás de los Garza,Norte,Refresco,Refresco,19.0,22.0,19.0,22.0,Pepsi,Coca Cola,15.789473684210533,3.0,normal
+1246,El Pitico,El Pitico,El Pitico,Oaxaca | Oaxaca de Juárez,Sur,Refresco,Refresco,17.0,24.0,17.0,24.0,Pepsi,Coca Cola,41.1764705882353,7.0,normal
+1274,Hipermercado Soriana,Hipermercado Soriana,Soriana,Oaxaca | Oaxaca de Juárez,Sur,Refresco,Refresco,20.0,24.0,20.0,24.0,Pepsi,Coca Cola,20.0,4.0,normal
+1285,Chedraui Selecto,Chedraui Selecto,Chedraui,Oaxaca | Oaxaca de Juárez,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1286,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Oaxaca | Santa Cruz Xoxocotlán,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1292,City Market,City Market,La Comer,Puebla | Puebla,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1302,Mega Soriana,Mega Soriana,Soriana,Puebla | Puebla,Centro,Refresco,Refresco,20.9,24.5,20.9,24.5,Pepsi,Coca Cola,17.22488038277512,3.6000000000000014,normal
+1321,Wal-mart,Walmart,Walmart de México,Puebla | Puebla,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1322,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Puebla | Puebla,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1363,La Comer,La Comer,La Comer,Querétaro | Santiago de Querétaro,Centro,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+1378,Hipermercado Soriana,Hipermercado Soriana,Soriana,Quintana Roo | Benito Juárez,Sur,Refresco,Refresco,20.9,23.9,20.9,23.9,Pepsi,Coca Cola,14.35406698564594,3.0,normal
+1387,Wal-mart,Walmart,Walmart de México,Quintana Roo | Benito Juárez,Sur,Refresco,Refresco,19.0,22.0,19.0,22.0,Pepsi,Coca Cola,15.789473684210533,3.0,normal
+1397,Soriana Super,Soriana Super,Soriana,Quintana Roo | Benito Juárez,Sur,Refresco,Refresco,20.9,25.5,20.9,25.5,Pepsi,Coca Cola,22.009569377990434,4.600000000000001,normal
+1403,Chedraui,Chedraui,Chedraui,Quintana Roo | Benito Juárez,Sur,Refresco,Refresco,19.0,22.0,19.0,22.0,Pepsi,Coca Cola,15.789473684210533,3.0,normal
+1408,Mega Soriana,Mega Soriana,Soriana,Quintana Roo | Benito Juárez,Sur,Refresco,Refresco,20.9,23.9,20.9,23.9,Pepsi,Coca Cola,14.35406698564594,3.0,normal
+1451,H.e.b.,HEB,HEB,San Luis Potosí | San Luis Potosí,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1462,Mega Soriana,Mega Soriana,Soriana,San Luis Potosí | San Luis Potosí,Centro Norte,Refresco,Refresco,19.0,24.5,19.0,24.5,Pepsi,Coca Cola,28.947368421052637,5.5,normal
+1470,Fresko la Comer,Fresko,La Comer,San Luis Potosí | San Luis Potosí,Centro Norte,Refresco,Refresco,19.0,23.125,19.0,23.125,Pepsi,Coca Cola,21.71052631578947,4.125,normal
+1488,Wal-mart,Walmart,Walmart de México,San Luis Potosí | San Luis Potosí,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1508,Ley,Ley,Ley,Sonora | Hermosillo,Norte,Refresco,Refresco,18.9,23.0,18.9,23.0,Pepsi,Coca Cola,21.693121693121697,4.100000000000001,normal
+1525,Wal-mart,Walmart,Walmart de México,Sonora | Hermosillo,Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1527,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Sonora | Hermosillo,Norte,Refresco,Refresco,19.0,22.5,19.0,22.5,Pepsi,Coca Cola,18.421052631578934,3.5,normal
+1535,Ley,Ley,Ley,Sonora | Hermosillo,Norte,Refresco,Refresco,18.9,23.0,18.9,23.0,Pepsi,Coca Cola,21.693121693121697,4.100000000000001,normal
+1578,Chedraui,Chedraui,Chedraui,Tabasco | Centro,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1591,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Tabasco | Centro,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1597,Wal-mart,Walmart,Walmart de México,Tabasco | Centro,Sur,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+1598,Wal-mart Express,Walmart Express,Walmart de México,Tabasco | Centro,Sur,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1600,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Tabasco | Centro,Sur,Refresco,Refresco,19.0,22.0,19.0,22.0,Pepsi,Coca Cola,15.789473684210533,3.0,normal
+1601,Farmacia Guadalajara,Farmacia Guadalajara,Farmacia Guadalajara,Tabasco | Centro,Sur,Refresco,Refresco,21.5,27.5,21.5,27.5,Pepsi,Coca Cola,27.906976744186053,6.0,normal
+1604,Hipermercado Soriana,Hipermercado Soriana,Soriana,Tabasco | Centro,Sur,Refresco,Refresco,19.6,24.9,19.6,24.9,Pepsi,Coca Cola,27.040816326530592,5.299999999999997,normal
+1656,Wal-mart,Walmart,Walmart de México,Tamaulipas | Tampico,Norte,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1659,H.e.b.,HEB,HEB,Tamaulipas | Tampico,Norte,Refresco,Refresco,19.25,24.0,19.25,24.0,Pepsi,Coca Cola,24.675324675324678,4.75,normal
+1667,Hipermercado Soriana,Hipermercado Soriana,Soriana,Tamaulipas | Tampico,Norte,Refresco,Refresco,20.9,24.9,20.9,24.9,Pepsi,Coca Cola,19.13875598086125,4.0,normal
+1684,Chedraui,Chedraui,Chedraui,Tlaxcala | Apizaco,Centro,Refresco,Refresco,19.0,23.25,19.0,23.25,Pepsi,Coca Cola,22.36842105263157,4.25,normal
+1699,Wal-mart,Walmart,Walmart de México,Tlaxcala | Tlaxcala,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1705,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Tlaxcala | Tlaxcala,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1721,Wal-mart,Walmart,Walmart de México,Tlaxcala | Tlaxcala,Centro,Refresco,Refresco,19.0,24.0,19.0,24.0,Pepsi,Coca Cola,26.315789473684205,5.0,normal
+1728,Hipermercado Soriana,Hipermercado Soriana,Soriana,Veracruz | Boca del Río,Sur,Refresco,Refresco,20.9,24.9,20.9,24.9,Pepsi,Coca Cola,19.13875598086125,4.0,normal
+1733,Wal-mart,Walmart,Walmart de México,Veracruz | Boca del Río,Sur,Refresco,Refresco,18.25,24.0,18.25,24.0,Pepsi,Coca Cola,31.50684931506849,5.75,normal
+1734,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Veracruz | Veracruz,Sur,Refresco,Refresco,19.0,20.0,19.0,20.0,Pepsi,Coca Cola,5.263157894736836,1.0,reducida
+1772,Chedraui,Chedraui,Chedraui,Yucatán | Mérida,Sur,Refresco,Refresco,19.0,22.5,19.0,22.5,Pepsi,Coca Cola,18.421052631578934,3.5,normal
+1785,Wal-mart,Walmart,Walmart de México,Yucatán | Mérida,Sur,Refresco,Refresco,19.0,23.5,19.0,23.5,Pepsi,Coca Cola,23.684210526315795,4.5,normal
+1819,Alsuper Fresh Market,Alsuper Fresh Market,Alsuper Fresh Market,Zacatecas | Guadalupe,Centro Norte,Refresco,Refresco,18.9,22.9,18.9,22.9,Pepsi,Coca Cola,21.164021164021165,4.0,normal
+1834,Wal-mart,Walmart,Walmart de México,Zacatecas | Zacatecas,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
+1836,Hipermercado Soriana,Hipermercado Soriana,Soriana,Zacatecas | Zacatecas,Centro Norte,Refresco,Refresco,20.9,26.9,20.9,26.9,Pepsi,Coca Cola,28.70813397129186,6.0,normal
+1838,Bodega Aurrera,Bodega Aurrerá,Walmart de México,Zacatecas | Zacatecas,Centro Norte,Refresco,Refresco,19.0,23.0,19.0,23.0,Pepsi,Coca Cola,21.052631578947366,4.0,normal
